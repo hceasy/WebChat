@@ -1,0 +1,63 @@
+.chatwindows {
+    overflow: auto;
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid darkgrey;
+    line-height: 20px;
+    font-size: 20px;
+}
+.chatwindows .times {
+    display: block;
+    font-size: 10px;
+    color: #00A000;
+    padding: 0 2px;
+}
+.chatwindows .nicks {
+    display: block;
+    font-size: 18px;
+    color: #1f6377;
+    padding: 0 2px;
+}
+.chatwindows .words {
+    display: block;
+    font-size: 14px;
+    color: #0e0e0e;
+    padding-left: 2px;
+    border-bottom: 1px solid silver;
+}
+.inputbox {
+    margin: 1% auto;
+    width: 60%;
+    height: 40px;
+}
+.inputbox .inputs {
+    width: 60%;
+    float: left;
+    height: 38px;
+    border: 1px solid seagreen;
+}
+.inputbox .inputs input.texts {
+    width: 80%;
+    height: 36px;
+    border: none;
+}
+.inputbox .inputs input.names {
+    width: 15%;
+    height: 36px;
+    border: none;
+    border-left: 1px solid skyblue;
+}
+.sendbut {
+    margin-left: 10%;
+    text-align: center;
+    line-height: 38px;
+    float: left;
+    width: 20%;
+    height: 38px;
+    border: 1px solid mediumseagreen;
+    cursor: pointer;
+}
+.mytext {
+    text-align: right;
+}
